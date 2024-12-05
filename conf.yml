@@ -2,36 +2,15 @@ info:
   name: "Monaco Editor"
   identifier: "monacoeditor"
   description: "Monaco Editor into Pterodactyl, offering advanced code editing"
-  flags: ""
+  flags: "hasInstallScript,hasRemovalScript,developerEscalateInstallScript"
   version: "1.0"
   target: "beta-2024-08"
   author: "NaysKutzu, Leonardo R."
-  icon: ""
-  website: ""
+  icon: "icon.png"
+  website: "https://builtbybit.com/resources/monaco-editor-blueprint.55864"
 
 admin:
   view: "view.blade.php"
-  controller: ""
-  css: ""
-  wrapper: ""
-
-dashboard:
-  css: ""
-  wrapper: ""
-  components: ""
 
 data:
   directory: "private"
-  public: ""
-  console: ""
-
-requests:
-  views: ""
-  controllers: ""
-  routers:
-    application: ""
-    client: ""
-    web: ""
-
-database:
-  migrations: ""
